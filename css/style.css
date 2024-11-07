@@ -19,7 +19,6 @@
   }
   
   body {
-    font-family: 'Noto Sans', sans-serif; 
     margin-top: 105px;
      /*Añadido margen inferior para dejar espacio al footer*/
     position: relative;
@@ -75,7 +74,8 @@
     border-bottom: solid 0.5px rgb(0, 0, 0);
     border-radius: 0px;
     /* transition: 0.3s ease; */
-    transition: all 0.2s ease 0s;
+    /* transition: all 0.2s ease 0s; */
+    transition: all 0.3s;
     font-weight: 800;
     color: #333;
   }
@@ -87,7 +87,7 @@
 
 .slider img{
   width: 100%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 /*PRODUCTOS DESTACADOS*/

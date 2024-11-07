@@ -1,14 +1,14 @@
 .reseñas {
     text-align: center;
-    margin: 20px 10px;
+    margin: 40px 10px;
 }
 
-.reseñas h2{
+/* .reseñas h2{
     margin-bottom:20px ;
-}
+} */
 
 .reseña h3 {
-    margin-top: 10px; /* Espacio entre la imagen y el nombre */
+    margin-bottom: 10px; /* Espacio entre la imagen y el nombre */
 }
 
 .reseñas-grid {
@@ -22,7 +22,7 @@
     padding: 20px;
     text-align: center;
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 10px;
     box-shadow: 7px 3px 13px #00000029;
 }
 
