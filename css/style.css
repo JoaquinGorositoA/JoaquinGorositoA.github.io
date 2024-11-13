@@ -71,7 +71,8 @@
   }
   
   .nav-bar ul li a:hover {
-    border-bottom: solid 0.5px rgb(0, 0, 0);
+    border-bottom: solid 0.5px rgb(195, 163, 67);
+    /* border-bottom: solid 0.5px rgb(0, 0, 0); */
     border-radius: 0px;
     /* transition: 0.3s ease; */
     /* transition: all 0.2s ease 0s; */
@@ -92,7 +93,7 @@
 
 /*PRODUCTOS DESTACADOS*/
 
-.productos_destacados h1{
+.productos_destacados h2{
   text-align: center;
   margin-top: 10px;
   text-transform: uppercase;
@@ -123,7 +124,8 @@ footer {
   .social-icons {
     flex: 1;
     text-align: left;
-    font-weight: 800;
+    font-weight: 600;
+    align-items: center;
   }
   
   .social-icons img {
@@ -147,11 +149,60 @@ footer {
     }
   
     .social-icons img {
-      margin-right: 0; /* Elimina el margen entre los iconos en pantallas pequeñas */
-    }
+       margin-right: 10px; /* Elimina el margen entre los iconos en pantallas pequeñas  */
+       height: 25px;
+       width: 25px;
+
   }
 
-  /*MEDIA QUERY*/
+  .nav-bar ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 10px 10px;
+    /* border-radius: 15px; */
+    /* transition: all 0.2s ease 0s; */
+    /* margin: 0 5px; */
+    color: var(--color-text);
+    font-weight: 400;
+  }
+
+  header img {
+    height: 105px;
+    width: 130px;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+
+  .nav-bar ul li a {
+    display: block;
+    font-size: 12px;
+    padding: 10px 0px;
+    /* border-radius: 15px; */
+    /* transition: all 0.2s ease 0s; */
+    /* margin: 0 5px; */
+    color: var(--color-text);
+    font-weight: 400;
+  }
+
+  .reseña p, .product p, .product button, .container label, .container button{
+    font-size: 12px;
+
+  }
+
+  .productos_destacados h2, .container h1{
+    font-size: 1.2em;
+  }
+
+  /* header img {
+    height: 100px;
+    width: 90px;
+  } */
+
+}
+
+  /* MEDIA QUERY
 
   @media (max-width: 900px) {
     header {
@@ -176,7 +227,6 @@ footer {
       left: 0;
       right: 0;
       width: 100vw;
-      /* background-color: rgb(235, 235, 235); */
       background-color: rgb(14, 14, 14);
       transition: 0.5s;
       overflow: hidden;
@@ -210,4 +260,5 @@ footer {
       border: 2px solid;
       border-radius: 1;
     }
-}
+ 
+} */
